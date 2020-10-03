@@ -1,0 +1,83 @@
+.formTitle{
+  margin: 50px 0 0;
+  text-align: center;
+  color: #1a1c20;
+}
+
+.productForm{
+  width: 50%;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.productForm label{
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 7px;
+  color: #4c4c4c;
+}
+
+.productForm input{
+  height: 30px;
+  border-radius: 7px;
+  padding: 10px 15px;
+  border: 2px solid #0278ae;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.productForm input:focus{
+  outline: none;
+  border-color: #03c4a1;
+}
+
+.radios{
+  display: flex;
+}
+
+.radios label{
+  font-size: 16px;
+  color: #1a1c20;
+}
+
+.productForm p{
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 7px;
+  color: #4c4c4c;
+}
+
+.radios div{
+  display: flex;
+  margin-right: 15px;
+}
+
+.productForm button{
+  width: 150px;
+  height: 40px;
+  background-color: #0278ae;
+  font-size: 18px;
+  border: 3px solid #0278ae;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  margin-left: auto;
+}
+
+.productForm button:hover{
+  transition: all 0.8s;
+  opacity: 0.8;
+  border: 2px solid #03c4ae;
+}
+
+@media only screen and (max-width: 600px){
+  .productForm{
+    width: 90%;
+  }
+  .productForm button{
+    width: 120px;
+  }
+}
